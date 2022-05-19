@@ -1,0 +1,16 @@
+{
+    "defaultProject": "test-project",
+    "projects": {
+        "test-project": {
+            "schematics": {
+                "@sla-ng/core:facade": {
+                    "use-class": true
+                },
+                "@sla-ng/core:page": {
+                    "create-facade": true
+                }
+            },
+            "prefix": "test"
+        }
+    }
+}
